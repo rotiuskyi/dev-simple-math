@@ -5237,7 +5237,7 @@ var $author$project$Common$Route$NotFound = 1;
 var $author$project$Common$Route$Root = 0;
 var $author$project$Common$Route$fromUrl = function (_v0) {
 	var path = _v0.du;
-	return (path === '/') ? 0 : 1;
+	return (path === '/dev-simple-math/') ? 0 : 1;
 };
 var $author$project$Common$Route$init = function (key) {
 	return {cL: key};
@@ -6353,7 +6353,7 @@ var $author$project$Common$Shell$header = A2(
 					_List_fromArray(
 						[
 							$elm$html$Html$Attributes$class('logo-box__logo'),
-							$elm$html$Html$Attributes$src('/favicon.ico')
+							$elm$html$Html$Attributes$src('/dev-simple-math/favicon.ico')
 						]),
 					_List_Nil)
 				]))
